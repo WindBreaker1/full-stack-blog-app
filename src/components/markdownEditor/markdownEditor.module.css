@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.editor {
+  width: 50%;
+  height: 400px;
+  max-height: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.preview {
+  width: 50%;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  line-height: 2rem;
+  overflow: scroll;
+}
+
+.preview a {
+  color: red;
+}
+
+.preview h2 {
+  margin-top: 20px;
+}
